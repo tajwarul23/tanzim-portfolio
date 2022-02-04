@@ -40,10 +40,10 @@ font-family: 'Poppins', sans-serif;
     padding-right: 10px;
     text-transform: uppercase;
     font-size: 1.5em;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 .navigation-itmes a:hover{
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     color: yellow;
 }
 .showcase video{
@@ -117,6 +117,7 @@ font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 1em;
 }
 .logo:hover{
     color: yellow;
@@ -127,13 +128,14 @@ font-family: 'Poppins', sans-serif;
     
 }
 
-.social{
-    position: absolute;
+.social ul{
+    position: relative;
     bottom: 20px;
     z-index: 10;
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 .social li {
@@ -158,6 +160,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 
+
 @media (max-width: 991px) {
     .showcase,
     .showcase header {
@@ -169,5 +172,8 @@ font-family: 'Poppins', sans-serif;
 
     .text h3{
         font-size: 2em;
+    }
+    .menu-btn{
+        background: url(images/bar.png);
     }
 }
