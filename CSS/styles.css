@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.showcase{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: white;
+    z-index: 2;
+}
+
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px ;
+    z-index: 1000;
+    display: flex;
+    /* color: black; */
+    justify-content: space-between;
+    
+}
+ .showcase header .navigation .navigation-items  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    opacity: .8;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+
+}
+
+.text{
+    position: relative;
+    z-index: 10 ;
+    /* color: black; */
+}
+
+.text h2{
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.text h3{
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700;
+}
+
+.text a {
+    display: inline-block;
+    font-size: 1em;
+    background: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #111;
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing:2px ;
+    transition: 0.3s;
+}
+
+.text a:hover{
+    letter-spacing: 6px;
+    background-color: yellow;
+    
+}
+
+.logo{
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logo:hover{
+    color: yellow;
+    letter-spacing: 6px;
+}
+
+.menu{
+    
+}
+
+.social{
+    position: absolute;
+    bottom: 20px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a{
+    display: inline-block;
+    /* filter: invert(1); */
+    color: white;
+    font-size: 2.5em;
+    margin-right:20px ;
+    transform: scale(1);
+    transition: 0.4s;
+}
+
+.social li a :hover{
+    transform: scale(1) translateY(-15px); 
+    
+}
+
+
+@media (max-width: 991px) {
+    .showcase,
+    .showcase header {
+        padding: 40px;
+    }
+    .text h2{
+        font-size: 3em;
+    }
+
+    .text h3{
+        font-size: 2em;
+    }
+}
