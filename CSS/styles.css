@@ -124,7 +124,7 @@ font-family: 'Poppins', sans-serif;
     /* padding-right: 700px; */
 }
 .logo:hover{
-    color: yellow;
+    color: red;
     letter-spacing: 6px;
 }
 
