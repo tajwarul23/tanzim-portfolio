@@ -280,22 +280,28 @@ font-family: 'Poppins', sans-serif;
     justify-content: center;
     align-items: center;
 }
-.col-lg-3{
-    margin-right: 10px;
-}
+
 .logo{
     text-align: center;
     padding-left: 1em;
 }
-/* .card-body{
-    align-items: center;
-    justify-content: center;
-    padding-right: 10px;
-} */
-    /* .card{
-        justify-content: center;
-        margin-top: 20px;
-        align-items: center;
-        /* padding-left: 20px; */
-        /* margin-left: 150px; */
-    }
+.card img{
+    width: 286px;
+    height: 100px;
+}
+.card a{
+    width: 270px;
+
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+ }
