@@ -123,6 +123,9 @@ font-family: 'Poppins', sans-serif;
     transition: 0.3s;
     font-size: 1em;
     /* padding-right: 700px; */
+    color: red;
+    letter-spacing: 6px;
+    
 }
 .logo:hover{
     color: red;
@@ -192,7 +195,7 @@ font-family: 'Poppins', sans-serif;
 } */
 
 .card-body a:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: gray;
     /* transform: scale(1) translateY(-15px);  */
    color: black;
    letter-spacing: 4px;
@@ -217,6 +220,10 @@ font-family: 'Poppins', sans-serif;
 .intro-1 h1{
     text-align: center;
 } 
+/* .btn .btn-dark{
+    justify-content: center;
+    align-items: center;
+} */
 /* .banner{
     width: 100%;
     height: 100vh;
@@ -256,11 +263,35 @@ font-family: 'Poppins', sans-serif;
     .text h3{
         font-size: 1em;
     }
-    .card{
+    
+.navbar-toggler-icon{
+    width: 1em;
+    height: 1em;
+    padding-right: 10px;
+}
+
+.navbar-dark .navbar-toggler{
+    background-color: #212529;
+}
+.navbar-dark .navbar-toggler{
+    border-color:#212529 ;
+}
+.montage{
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-3{
+    margin-right: 10px;
+}
+/* .card-body{
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+} */
+    /* .card{
         justify-content: center;
         margin-top: 20px;
         align-items: center;
         /* padding-left: 20px; */
         /* margin-left: 150px; */
     }
-}
